@@ -1,0 +1,24 @@
+{
+    "dataset": "Iris",
+    "rows_before": 150,
+    "rows_after": 149,
+    "columns": [
+        "sepal length (cm)",
+        "sepal width (cm)",
+        "petal length (cm)",
+        "petal width (cm)",
+        "target"
+    ],
+    "missing_values_before": 0,
+    "missing_values_after": 0,
+    "duplicate_rows_before": 1,
+    "duplicate_rows_after": 0,
+    "cleaning_steps": [
+        "Checked missing values and duplicate rows",
+        "Removed exact duplicate rows",
+        "Removed rows with missing target labels",
+        "Replaced infinite feature values with missing values",
+        "Imputed missing numeric features using column medians",
+        "Validated target labels"
+    ]
+}

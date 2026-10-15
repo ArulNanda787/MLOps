@@ -1,0 +1,25 @@
+{
+    "feature_store_name": "Iris Feature Store",
+    "dataset": "Iris",
+    "feature_columns": [
+        "sepal length (cm)",
+        "sepal width (cm)",
+        "petal length (cm)",
+        "petal width (cm)",
+        "petal_ratio"
+    ],
+    "target_column": "target",
+    "target_classes": {
+        "0": "setosa",
+        "1": "versicolor",
+        "2": "virginica"
+    },
+    "total_rows": 149,
+    "training_rows": 119,
+    "testing_rows": 30,
+    "split_ratio": "80:20",
+    "random_state": 42,
+    "feature_description": {
+        "petal_ratio": "Petal length divided by sepal length"
+    }
+}

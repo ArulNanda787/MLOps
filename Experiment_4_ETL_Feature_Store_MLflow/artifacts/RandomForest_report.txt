@@ -1,0 +1,19 @@
+Model: RandomForest
+Accuracy: 0.9333
+Macro precision: 0.9333
+Macro recall: 0.9333
+Macro F1: 0.9333
+
+Classification report:
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        10
+  versicolor       0.90      0.90      0.90        10
+   virginica       0.90      0.90      0.90        10
+
+    accuracy                           0.93        30
+   macro avg       0.93      0.93      0.93        30
+weighted avg       0.93      0.93      0.93        30
+
+Confusion matrix:
+[[10, 0, 0], [0, 9, 1], [0, 1, 9]]
